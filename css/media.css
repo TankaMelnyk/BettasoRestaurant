@@ -1,0 +1,124 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+	/*===================TOP INFO =================*/
+	.topInfo{
+		height: 75px;
+	}
+	.topInfo .addressInfo{
+	    margin: 4px 30px 0 0;
+	}
+	.topInfo .addressInfo:last-of-type {
+	    margin: 4px 0 0 0;
+	}
+	.topInfo .col-md-12{
+		text-align: center;
+	}
+	.referenceGroupSotsseti{
+		text-align: center;
+	}
+	/*= end ==================TOP INFO =================*/
+
+	/*======================HEADER===================*/
+	header{
+		background-image: url(../img/showcase_bg.jpg);
+		background-repeat: repeat-x;
+		background-position: top center;	
+		min-height: 1000px;
+		color: red;
+	}
+	header .row{
+		margin: 0;
+	}
+	header .row .col-lg-12,
+	header .row .col-mg-12 {
+		padding: 0;
+	}
+	header .logo_wrap,
+	header .nav{
+		padding-top: 25px;
+	}
+
+	.menu_wrap {
+		text-align: left;
+	}
+	.nav li {
+	    padding-left: 0px;
+	    padding-right: 40px;
+	}
+
+	/*-end------------------HEADER-------------*/
+
+	/*--------------conteiner honors-----------*/
+
+	.conteiner_honors .content{
+		/*padding: 45px 0  45px 0;*/
+	}
+	.conteiner_honors .img_content {
+		display: block;
+		margin: auto;
+	}
+	/*.conteiner_honors .col-md-3{
+		display: inline-block;
+		width: 24.7%;
+	}*/
+	.conteiner_honors .text_content {
+		display: block;
+	}
+	.conteiner_honors h4{
+		font-weight: 50px; 
+		margin-top: 10px;
+		margin-bottom: 16px;
+	}
+
+	/*-- end ------------conteiner honors-----------*/
+	}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
