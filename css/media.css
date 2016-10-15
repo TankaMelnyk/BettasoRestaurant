@@ -22,11 +22,8 @@
 
 	/*======================HEADER===================*/
 	header{
-		background-image: url(../img/showcase_bg.jpg);
-		background-repeat: repeat-x;
-		background-position: top center;	
-		min-height: 1000px;
-		color: red;
+		background-size: 1350px auto;
+		min-height: 700px;
 	}
 	header .row{
 		margin: 0;
@@ -47,7 +44,9 @@
 	    padding-left: 0px;
 	    padding-right: 40px;
 	}
-
+	header h1 {
+		padding-top: 90px;
+	}
 	/*-end------------------HEADER-------------*/
 
 	/*--------------conteiner honors-----------*/
@@ -77,11 +76,64 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
+	/*-------------------header-------------------*/
+	header .nav {
+	   padding-top: 85px;
+	}
+
+/*--- end ----------------header-------------------*/
 
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+/*-- end ------------ top_info ---------------*/
+	.topInfo{
+		height: 60px;
+	}
+	.topInfo .row{
+		margin: 0;
+	}
+	.topInfo .addressInfo {
+		display: none;
+	}
+	.topInfo .referenceGroupSotsseti{
+		margin-top: 10px; 
+	}
+	.topInfo .icon {
+		margin-left: 16px; 
+	}
+/*-- end ------------ top_info ---------------*/
+/*-------------------header-------------------*/
+	header{
+		background-size: 820px auto;
+		min-height: 425px;
+	}
+
+	header .row {
+		margin: 0;
+	}
+	header .nav {
+	    display: none;
+	}
+	#touch_menu{
+		display: inline-block;
+	}
+
+	header h1 {
+		padding-top: 35px;
+		font-size: 36px;
+	}
+	header h2 {
+		font-size: 28px;
+		line-height: 18px;
+		letter-spacing: 3px;
+		margin-bottom: 30px;
+	}
+	header .tell_number {
+	display: none;
+	}
+/*--- end ----------------header-------------------*/
 
 }
 
