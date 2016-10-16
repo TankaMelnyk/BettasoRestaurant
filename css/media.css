@@ -18,9 +18,9 @@
 	.referenceGroupSotsseti{
 		text-align: center;
 	}
-	/*= end ==================TOP INFO =================*/
+	/*- end --------------------top_info---------------*/
 
-	/*======================HEADER===================*/
+	/*-----------------------header--------------------*/
 	header{
 		background-size: 1350px auto;
 		min-height: 700px;
@@ -47,28 +47,26 @@
 	header h1 {
 		padding-top: 90px;
 	}
-	/*-end------------------HEADER-------------*/
+	/*-end------------------ header -------------*/
 
-	/*--------------conteiner honors-----------*/
+	/*--------------conteiner_honors-----------*/
 
 	.conteiner_honors .content{
-		/*padding: 45px 0  45px 0;*/
+		min-height: 300px;
 	}
 	.conteiner_honors .img_content {
 		display: block;
 		margin: auto;
 	}
-	/*.conteiner_honors .col-md-3{
-		display: inline-block;
-		width: 24.7%;
-	}*/
 	.conteiner_honors .text_content {
 		display: block;
+		width: 100%;
+		padding: 0 0 10px 30px;
 	}
 	.conteiner_honors h4{
 		font-weight: 50px; 
-		margin-top: 10px;
-		margin-bottom: 16px;
+		margin-top: 15px;
+		margin-bottom: 0px;
 	}
 
 	/*-- end ------------conteiner honors-----------*/
@@ -82,7 +80,10 @@
 	}
 
 /*--- end ----------------header-------------------*/
+/*--------------conteiner_honors-----------*/
 
+
+	/*-- end ------------conteiner honors-----------*/
 }
 
 /* Small Devices, Tablets */
@@ -134,7 +135,40 @@
 	display: none;
 	}
 /*--- end ----------------header-------------------*/
+/*--------------conteiner_honors-----------*/
 
+.conteiner_honors .content{
+	padding: 50px 0 40px 90px;
+	min-height: 180px;
+	border-bottom: 2px solid #E6E5E5;
+}
+.conteiner_honors .img_content{
+	display: inline-block;
+	margin: 0 ;
+}
+
+.conteiner_honors .text_content{
+	display: inline-block;
+	width: 50%;
+	font-family: "RobotoLight";
+	font-size: 19px;
+	padding: 0 0 0 15px;
+}
+.conteiner_honors h4{
+	word-wrap: break-word;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.conteiner_honors .text_content p{
+	color: #bdbdbd;
+	font-size: 14px;
+	line-height: 14px;
+	font-width: 300;
+	padding: 0;
+}
+
+
+/*-- end ------------conteiner honors-----------*/
 }
 
 /* Extra Small Devices, Phones */
