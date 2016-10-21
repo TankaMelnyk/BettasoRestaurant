@@ -45,6 +45,9 @@ p{
 ul{
 	padding: 0;
 }
+.row{
+	margin: 0; 
+}
 .ta_right{
 	background-image: none;
 	padding-left: 0;
@@ -57,6 +60,7 @@ ul{
 	line-height: 2.5;
 	height: 40px;
 }
+
 .topInfo .addressInfo{
     margin: 4px 65px 0 0;
     display: inline-block;
@@ -296,45 +300,43 @@ header .tell_number {
 }
 /*---класс, при наведении на объект подчеркивает его---*/
 
-/*-end-------------conteiner honors-----------*/
+/*-end-------------conteiner_honors-----------*/
 
-/*----------------conteiner adt---------------------*/
+/*----------------conteiner_adt---------------------*/
 
-.container_adt{
+.container_adt {
 	color: #000;
 	padding: 100px 0 70px 0;
 }
-.adt_info{
+.adt_info {
 	padding: 70px 0 0 45px;
 }
-/*.container_adt h3{
-	font-family: "Roboto";
-	font-size: 29px;
-	font-weight: 300;
-	line-height: 60px;
+.container_adt h3{
+	line-height: 45px;
 
 }
+/*s
 .container_adt p{
 	font-family: "Roboto";
 	font-size: 16px;
 	font-weight: 300;
 	line-height: 28px;
 }*/
-.container_adt .quote{
+.container_adt .quote {
 	font-family: "Montserrat";
 	font-size: 18px;
 	line-height: 36px;
 	margin-top: 80px;
+	position: relative;
 }
 .container_adt .quote:before {
 	position: absolute;
 	content: "\201c";
-	left: 10px;
-	top: 326px;
+	left: -45px;
 	font-size: 70px;
 	line-height: 1;
 }
-.container_adt a{
+.container_adt a {
 	font-family: "Montserrat";
 	font-size: 16px;
 	font-weight: bold;
@@ -349,8 +351,8 @@ header .tell_number {
 }
 
 .adt_imgs .row .col-lg-6:first-child {
-		padding-right: 5.5px;
-		padding-bottom: 11px;
+	padding-right: 5.5px;
+	padding-bottom: 11px;
 }
 .adt_imgs .row .col-lg-6:last-child {
 	padding-left: 5.5px;	
@@ -363,19 +365,23 @@ header .tell_number {
   margin-right: auto;
   padding-top: 50%;
   padding-bottom: 50%;
+
 }
 /*--- класс делает widht = height ---*/
+.adt_imgs {
+	/*background-size: auto;*/
+}
 .adt_img_1{
-	background-image: url(../img/home-2.jpg);
+	background: url(../img/home-2.jpg) no-repeat;
 }
 .adt_img_2{
-	background-image: url(../img/home-3.jpg);
+	background: url(../img/home-3.jpg) no-repeat;
 }
 .adt_img_3{
-	background-image: url(../img/home-4.jpg);
+	background: url(../img/home-4.jpg) no-repeat;
 }
 .adt_img_4{
-	background-image: url(../img/home-5.jpg);
+	background: url(../img/home-5.jpg) no-repeat;
 }
 
 
@@ -383,56 +389,34 @@ header .tell_number {
 /*-end------------conteiner_adt---------------------*/
 
 /*------------------container_menu------------------*/
-.container_menu .row{
-	margin: 30px 0 0 0;
-}
+
 .container_menu .col-lg-3{
 	padding: 0;
 } 
-.container_menu{
-}
+
 .container_menu .forums_menu{
 	height: 700px;
-	-webkit-background-size: cover;
 	background-size: cover;
-
 	position: relative; 
-
+	background-position: center center;
 }
-.container_menu .forums_menu div{/**/
+.container_menu .forums_menu div {/**/
 	position: absolute; 
 	top: 50%; 
 	left: 50%;
 	transform: translate(-50%, -50%); 
 	width: 100%; 
-	height: auto;
-
-	
+	height: auto;	
 	text-align: center;
 }
 .container_menu .text_hover{
 	visibility: hidden;
 	height: 0;
 	padding: 0 40px;
-
-/*	transition : all 0s ease-in-out;
-    -moz-transition : all 0s ease-in-out;
-    -o-transition : all 0s ease-in-out;
-    -webkit-transition : all 0s ease-in-out;*/
-
 }
 .container_menu .forums_menu:hover .text_hover{
 	visibility: visible;
 	height: auto;
-	/*min-height: 300px;*/
-	
-	/*transition: height 1s;*/
-/*
-    transition:all 2s linear;
-	-moz-transition:all 2s 0 linear;
-	-webkit-transition:all 2s linear;
-	-o-transition:all 2s linear;*/
-
 }
 
 .container_menu h3{
@@ -440,6 +424,7 @@ header .tell_number {
 	font-weight: bold;
 	font-size: 37px;
 	letter-spacing: 5px;
+	margin: 0 40px;
 
 }
 
@@ -466,35 +451,58 @@ header .tell_number {
 
 /*----------------container_people_saying-----------*/
 
-.container_people_saying{
+.container_people_saying {
 	background-color: #f8f9f0;
 	color: #767676;
 	padding: 100px 0 50px 0;
 }
-.container_people_saying h3{
+.container_people_saying h3 {
 	text-align: center;
 	color: #000;
 	margin: 0;
 }
-.container_people_saying p{
+.container_people_saying p {
 	text-align: center;
 	margin: 10px;
 }
-.container_people_saying i{
+.container_people_saying i {
 	font-size: 40px;
 	color: #EEEEEE;
 	margin: 22px 10px 15px 10px;
 }
-.container_people_saying .people_say{
+.container_people_saying .people_say {
 	text-align: left;
+	min-height: 200px;
 }
 
-.container_people_saying .who_says{
+.container_people_saying .who_says {
 	padding: 10px 0 50px 10px;
 }
+
 .container_people_saying .who_says div{
-	display: inline-block;
-	vertical-align: middle;
+	float: left;
+	font-family: "Roboto";
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 28px;
+	color: #3C3C3C;
+	font-size: 18px;
+}
+.container_people_saying .imgs_say{
+	height: 70px;
+	width: 70px;
+	border-radius: 35px;
+	margin-right: 20px;
+
+}
+.container_people_saying .img_say_1{
+	background-image: url("../img/testimonials-1.jpg");
+}
+.container_people_saying  .img_say_2{
+	background-image: url("../img/testimonials-2.png");
+}
+.container_people_saying .img_say_3{
+	background-image: url("../img/testimonials-3.jpg");
 }
 .container_people_saying .who_says div p:first-of-type{
 	font-weight: 400;
@@ -508,21 +516,10 @@ header .tell_number {
 	text-align: left;
 	margin: 0;
 }
-.container_people_saying .imgs_say{
-	height: 70px;
-	width: 70px;
-	border-radius: 35px;
-	margin-right: 20px;
-}
-.container_people_saying .img_say_1{
-	background-image: url("../img/testimonials-1.jpg");
-}
-.container_people_saying  .img_say_2{
-	background-image: url("../img/testimonials-2.png");
-}
-.container_people_saying .img_say_3{
-	background-image: url("../img/testimonials-3.jpg");
-}
+
+
+
+
 
 /*-- end ------------ container_people_saying -----------*/
 

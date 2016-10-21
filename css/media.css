@@ -3,11 +3,19 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
 	/*===================TOP INFO =================*/
+	
 	.topInfo{
 		height: 75px;
 	}
+
+	.topInfo .row{
+		margin: 0;
+	}
 	.topInfo .addressInfo{
 	    margin: 4px 30px 0 0;
+	}
+	.adt_info {
+		padding: 70px 0 0 45px;
 	}
 	.topInfo .addressInfo:last-of-type {
 	    margin: 4px 0 0 0;
@@ -37,7 +45,7 @@
 		padding-top: 25px;
 	}
 
-	.menu_wrap {
+	header .menu_wrap {
 		text-align: left;
 	}
 	.nav li {
@@ -69,12 +77,34 @@
 		margin-bottom: 0px;
 	}
 
-	/*-- end ------------conteiner honors-----------*/
+	/*-- end ------------conteiner_honors-----------*/
+	/*----------------conteiner_adt---------------------*/
+	.container_adt .adt_info {
+		padding: 0 0 0 80px;
 	}
+	.container_adt .adt_imgs{
+		padding: 0 20px 0 0;
+	}
+	/*--  end  ----------conteiner_adt-------------------*/
+	/*------------------container_menu------------------*/
+
+.container_menu .forums_menu{
+	height: 500px;
+}
+
+/*--end-------------container_menu------------------*/
+/*----------------container_people_saying-----------*/
+
+.container_people_saying .people_say {
+	text-align: left;
+	min-height: 220px;
+}
+/*-- end --------------container_people_saying-----------*/
+}
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-	/*-------------------header-------------------*/
+/*-------------------header-------------------*/
 	header .nav {
 	   padding-top: 85px;
 	}
@@ -83,7 +113,41 @@
 /*--------------conteiner_honors-----------*/
 
 
-	/*-- end ------------conteiner honors-----------*/
+/*-- end ------------conteiner honors-----------*/
+/*----------------conteiner_adt---------------------*/
+	.container_adt .adt_info {
+		padding: 0px 0 0 35px;
+	}
+	.container_adt h3{
+		margin: 0;
+	}
+	.container_adt .quote:before {
+		left: 0px;
+		top: -40px;
+	}
+
+	.container_adt .adt_imgs {
+		/*padding: 0px 0 0 0px;*/
+	}
+/*--  end  ----------conteiner_adt-------------------*/
+/*----------------container_people_saying-----------*/
+
+	.container_people_saying .people_say{
+		min-height: 270px;
+	}
+	.container_people_saying .who_says div p:first-of-type{
+		font-weight: 400;
+		color: #3C3C3C;
+		font-size: 18px;
+		text-align: left;
+		margin: 0;
+	}
+	.container_people_saying .who_says div p:last-of-type{
+		font-size: 13px;
+		text-align: left;
+		margin: 0;
+	}
+/*-- end --------------container_people_saying-----------*/
 }
 
 /* Small Devices, Tablets */
@@ -127,7 +191,7 @@
 	}
 	header h2 {
 		font-size: 28px;
-		line-height: 18px;
+		line-height: 35px;
 		letter-spacing: 3px;
 		margin-bottom: 30px;
 	}
@@ -137,38 +201,80 @@
 /*--- end ----------------header-------------------*/
 /*--------------conteiner_honors-----------*/
 
-.conteiner_honors .content{
-	padding: 50px 0 40px 90px;
-	min-height: 180px;
-	border-bottom: 2px solid #E6E5E5;
-}
-.conteiner_honors .img_content{
-	display: inline-block;
-	margin: 0 ;
-}
+	.conteiner_honors .content{
+		padding: 50px 0 40px 90px;
+		
+		min-height: 180px;
+		border-bottom: 2px solid #E6E5E5;
+	}
+	.conteiner_honors .img_content{
+		display: inline-block;
+		margin: 0 ;
+	}
 
-.conteiner_honors .text_content{
-	display: inline-block;
-	width: 50%;
-	font-family: "RobotoLight";
-	font-size: 19px;
-	padding: 0 0 0 15px;
-}
-.conteiner_honors h4{
-	word-wrap: break-word;
-	margin-top: 0px;
-	margin-bottom: 0px;
-}
-.conteiner_honors .text_content p{
-	color: #bdbdbd;
-	font-size: 14px;
-	line-height: 14px;
-	font-width: 300;
-	padding: 0;
-}
+	.conteiner_honors .text_content{
+		display: inline-block;
+		width: 50%;
+		font-family: "RobotoLight";
+		font-size: 19px;
+		padding: 0 0 0 15px;
+	}
+	.conteiner_honors h4{
+		word-wrap: break-word;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	.conteiner_honors .text_content p{
+		color: #bdbdbd;
+		font-size: 14px;
+		line-height: 14px;
+		font-width: 300;
+		padding: 0;
+	}
 
 
-/*-- end ------------conteiner honors-----------*/
+/*-- end ------------conteiner_honors-----------*/
+/*----------------conteiner_adt---------------------*/
+	.container_adt {
+		padding: 40px 0 40px 0;
+	}
+	.container_adt .adt_info,
+	.container_adt .adt_imgs {
+		padding: 0 8.33%;
+		margin: 0 auto;
+	}
+
+/*--  end  ----------conteiner_adt-------------------*/
+/*------------------container_menu------------------*/
+	.container_menu .forums_menu{
+		height: 225px;
+	}
+
+	.container_menu .forums_menu:hover .text_hover{
+		visibility: hidden;
+		height: 0;
+	}
+/*--end-------------container_menu------------------*/
+/*----------------container_people_saying-----------*/
+	.container_people_saying {
+		padding: 50px 0 50px 0;
+	}
+	.container_people_saying h3{
+		margin: 0 100px;
+		line-height: 42px;
+	}
+	.container_people_saying .col-xs-10{
+		float: none;
+		margin: 0 auto;
+	}
+	.container_people_saying .people_say {
+		min-height: 0;
+	}
+	.container_people_saying .who_says {
+		padding: 10px;
+	}
+
+/*-- end --------------container_people_saying-----------*/
 }
 
 /* Extra Small Devices, Phones */
