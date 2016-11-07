@@ -85,6 +85,9 @@
 	.container_adt .adt_imgs{
 		padding: 0 20px 0 0;
 	}
+		.container_adt>.container>.row>.col-md-6 {
+		padding: 0 15px;
+	}
 	/*--  end  ----------conteiner_adt-------------------*/
 	/*------------------container_menu------------------*/
 
@@ -125,10 +128,14 @@
 		left: 0px;
 		top: -40px;
 	}
-
-	.container_adt .adt_imgs {
-		/*padding: 0px 0 0 0px;*/
+	.container_adt>.container>.row>.col-md-6:first-child {
+		padding: 0 15px 0 0;
 	}
+	.container_adt>.container>.row>.col-md-6:last-child {
+		padding: 0 0 0 15px;
+	}
+
+
 /*--  end  ----------conteiner_adt-------------------*/
 /*----------------container_people_saying-----------*/
 
@@ -203,7 +210,6 @@
 
 	.conteiner_honors .content{
 		padding: 50px 0 40px 90px;
-		
 		min-height: 180px;
 		border-bottom: 2px solid #E6E5E5;
 	}
@@ -236,14 +242,17 @@
 /*-- end ------------conteiner_honors-----------*/
 /*----------------conteiner_adt---------------------*/
 	.container_adt {
-		padding: 40px 0 40px 0;
+		padding: 40px 0 10px 0;
 	}
 	.container_adt .adt_info,
 	.container_adt .adt_imgs {
-		padding: 0 8.33%;
+		padding: 0 5%;
 		margin: 0 auto;
 	}
-
+	.container_adt>.container>.row>.col-sm-6:first-child,
+	.container_adt>.container>.row>.col-sm-6:last-child {
+		padding: 0 15px;
+	}
 /*--  end  ----------conteiner_adt-------------------*/
 /*------------------container_menu------------------*/
 	.container_menu .forums_menu{
@@ -279,7 +288,27 @@
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
+	/*--------------conteiner_honors-----------*/
 
+	.conteiner_honors .content{
+		padding: 50px 0 40px 10px;
+	}
+	.container_adt .adt_info,
+	.container_adt .adt_imgs {
+		padding: 0 0;
+		margin: 0 auto;
+	}
+
+/*-- end ------------conteiner_honors-----------*/
+/*----------------conteiner_adt---------------------*/
+	.container_adt {
+		padding: 40px 0 30px 0;
+	}
+	.container_adt>.container>.row>.col-sm-6:first-child,
+	.container_adt>.container>.row>.col-sm-6:last-child {
+		padding: 0 15px;
+	}
+/*-- end --------------conteiner_adt---------------------*/
 }
 
 /* Custom, iPhone Retina */

@@ -313,7 +313,12 @@ header .tell_number {
 }
 .container_adt h3{
 	line-height: 45px;
-
+}
+.container_adt>.container>.row>.col-lg-6:first-child {
+	padding: 0 15px 0 0;
+}
+.container_adt>.container>.row>.col-lg-6:last-child {
+	padding: 0 0 0 15px;
 }
 /*s
 .container_adt p{
@@ -350,12 +355,13 @@ header .tell_number {
 	color: #000000;
 }
 
-.adt_imgs .row .col-lg-6:first-child {
-	padding-right: 5.5px;
-	padding-bottom: 11px;
+.adt_imgs .col-lg-6:first-child {
+	padding: 0 5.5px 11px 0;
 }
-.adt_imgs .row .col-lg-6:last-child {
-	padding-left: 5.5px;	
+.adt_imgs .col-lg-6:last-child {
+	padding: 0 0 11px 5.5px;
+	/*padding-left: 5.5px;
+	padding-bottom: 11px;*/	
 }
 
 /*--- класс делает widht = height ---*/
@@ -516,11 +522,6 @@ header .tell_number {
 	text-align: left;
 	margin: 0;
 }
-
-
-
-
-
 /*-- end ------------ container_people_saying -----------*/
 
 
@@ -548,46 +549,32 @@ header .tell_number {
 	margin: 10px 0 50px 0;
 }
 
-.chef_recommends .point_recommend{
-
-}
-.chef_recommends .point_recommend .imgs_recom{
-	height: 370px;
+/*------- отношение сторон 4х3 ----------- */
+.chef_recommends .point_recommend .ratio4_3 {
 	position: relative;
-	background-size: cover;
+	width: 100%;	
 }
+.chef_recommends .point_recommend .ratio4_3:before{
+	content: "";
+	display: block;
+	padding-top: 75%;
+}
+
+
+.chef_recommends .point_recommend .imgs_recom{
+	background-size: cover;
+	position:  absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+}
+/*- end ----- отношение сторон 4х3 ---------*/
 .chef_recommends .point_recommend .imgs_recom a{
 	display: block;
 	height: 100%;
 	width: 100%;
 }
-/*
-.chef_recommends .point_recommend .imgs_recom::before {
-    position: absolute;
-    top: 0;
-    left: -75%;
-    z-index: 2;
-    display: block;
-    content: '';
-    width: 50%;
-    height: 100%;
-    background: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.3) 100%);
-    -webkit-transform: skewX(25deg);
-    -ms-transform: skewX(25deg);
-    transform: skewX(25deg);
-}
-
-.chef_recommends .point_recommend .imgs_recom::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.4);
-    opacity: 0;
-    transition: .3s;
-}*/
 
 .chef_recommends .point_recommend .img_recom_1{
 	background-image: url("../img/recom-1.jpg");
@@ -625,7 +612,7 @@ header .tell_number {
 	padding: 20px 30px 12px 30px;
 }
 .chef_recommends .info_recom .name_price{ 
-	line-height: 0px;
+	line-height: 15px;
 }
 .chef_recommends .info_recom .name_price a{ 
 	text-transform: uppercase;
@@ -639,8 +626,7 @@ header .tell_number {
 .chef_recommends .info_recom .name_price span{ 
 	color: #ec495e;
 	font-weight: bold;
-	float: right;
-
+	text-align: right;
 }
 .chef_recommends .info_recom .description_dish{
 	color: #ACACAC;
