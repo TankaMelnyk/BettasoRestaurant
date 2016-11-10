@@ -91,18 +91,26 @@
 	/*--  end  ----------conteiner_adt-------------------*/
 	/*------------------container_menu------------------*/
 
-.container_menu .forums_menu{
-	height: 500px;
-}
+	.container_menu .forums_menu{
+		height: 500px;
+	}
 
 /*--end-------------container_menu------------------*/
 /*----------------container_people_saying-----------*/
 
-.container_people_saying .people_say {
-	text-align: left;
-	min-height: 220px;
-}
+	.container_people_saying .people_say {
+		text-align: left;
+		min-height: 220px;
+	}
 /*-- end --------------container_people_saying-----------*/
+
+/*----------------container_gallery---------------*/
+	.container_gallery p {
+		max-width: 900px;
+		margin: 0 auto;
+	}
+
+/*-- end -----------container_gallery---------------*/
 }
 
 /* Medium Devices, Desktops */
@@ -155,6 +163,48 @@
 		margin: 0;
 	}
 /*-- end --------------container_people_saying-----------*/
+
+/*-----------------container_cook_say---------------*/
+
+	.container_cook_say {
+		position: relative;		
+		overflow: hidden;
+		padding-bottom: 0px;
+		min-height: 540px;
+	}
+	.container_cook_say h4 {
+		padding-top: 80px;
+	}
+
+	.container_cook_say .col-sm-7 {
+		z-index: 2;
+	}
+	.container_cook_say .col-sm-5:last-child {
+		position: absolute;
+		right: 0px;
+		top: 0;
+		width: 450px;
+	}
+/*----end ----------container_cook_say---------------*/
+/*----------------container_gallery---------------*/
+	.container_gallery p {
+		max-width: 660px;
+	}
+/*--- end -------------container_gallery---------------*/
+
+/*--------------------- footer --------------------------*/
+.container_subscribe input{
+	width: 72%;
+
+}
+.container_subscribe button {
+	width: 27%;
+}
+.container_subscribe .container {
+	max-width:720px;
+}
+/*-- end --------------- footer --------------------------*/
+
 }
 
 /* Small Devices, Tablets */
@@ -260,16 +310,16 @@
 	}
 
 	.container_menu .forums_menu:hover .text_hover{
-		visibility: hidden;
+		display: none;
 		height: 0;
 	}
 /*--end-------------container_menu------------------*/
 /*----------------container_people_saying-----------*/
 	.container_people_saying {
-		padding: 50px 0 50px 0;
+		padding: 50px 0;
 	}
 	.container_people_saying h3{
-		margin: 0 100px;
+		margin: 0 5%;
 		line-height: 42px;
 	}
 	.container_people_saying .col-xs-10{
@@ -284,6 +334,61 @@
 	}
 
 /*-- end --------------container_people_saying-----------*/
+
+/*--------------------chef_recommends--------------------*/
+
+	.chef_recommends {
+		padding: 50px 0 0 0;
+	}
+
+	.chef_recommends .info_recom{
+		padding: 10px 15px 35px 15px;
+	}
+	.chef_recommends .point_recommend .chefs_special{
+		margin: 15px;
+	}
+/*-- end -------------chef_recommends--------------------*/
+/*-----------------container_cook_say---------------*/
+	.container_cook_say {
+		min-height: 440px;
+	}
+	.container_cook_say .container {
+		max-width: 450px;
+	}
+	.container_cook_say h4 {
+		padding-top: 40px;
+	}
+	.container_cook_say .col-xs-12:last-child {
+		display: none;
+	}
+/*----end ----------container_cook_say---------------*/
+/*----------------container_gallery---------------*/
+	.container_gallery p{
+		max-width: 550px;
+	}
+	.container_gallery h4{
+		padding-top: 50px;
+	}
+	.container_gallery h3 {
+		margin-bottom: 5px;
+
+	}
+	.container_gallery  .btn_book_online{
+		margin: 40px auto 60px;
+	}
+/*--- end -------------container_gallery---------------*/
+/*--------------------- footer --------------------------*/
+.container_subscribe input{
+	width: 63%;
+
+}
+.container_subscribe button {
+	width: 36%;
+}
+footer .container {
+	max-width: 580px;
+}
+/*-- end --------------- footer --------------------------*/
 }
 
 /* Extra Small Devices, Phones */
@@ -309,11 +414,59 @@
 		padding: 0 15px;
 	}
 /*-- end --------------conteiner_adt---------------------*/
-}
 
+/*------------------container_menu------------------*/
+/*---- end --------------container_menu------------------*/
+	
+	.container_menu h3{
+		font-size: 24px;
+		letter-spacing: 3.5px;
+	}
+}
+/*----------------container_people_saying-----------*/
+	
+	.container_people_saying h3{
+		margin: 0 0;
+		line-height: 42px;
+	}
+/*	.container_people_saying .col-xs-10{
+		margin: 0 0;
+		width: 100%;
+	}*/
+/*-----------------container_cook_say---------------*/
+	.container_cook_say {
+		
+	}
+	.container_cook_say .col-xs-12:first-child {
+		padding-right: 15px;
+		padding-bottom: 0px;
+	}
+	/*--------------------- footer --------------------------*/
+.container_subscribe input{
+	width: 100%;
+	margin-bottom: 5px;
+}
+.container_subscribe button {
+	width: 100%;
+	left: 0;
+}
+footer .down_icons p {
+	text-align: center;
+	margin-bottom: 0;
+	line-height: 25px;
+}
+footer .info_down .addressInfo {
+	font-size: 12px;
+}
+.down_icons .referenceGroupSotsseti {
+    float: none;
+    padding: 0 0 20px 0;
+}
+/*-- end --------------- footer --------------------------*/
+/*----end ----------container_cook_say---------------*/
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {
-
+	
 }
 
 
