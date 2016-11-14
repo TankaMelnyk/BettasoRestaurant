@@ -236,11 +236,28 @@
 		margin: 0;
 	}
 	header .nav {
-	    display: none;
+	    /*display: none;*/
 	}
 	#touch_menu{
 		display: inline-block;
 	}
+	ul.nav {
+		padding: 20px 0 0;
+		margin: 0 -15px;
+	}
+	.nav li {
+		display: block;
+		padding: 0;
+	}
+	.nav li a{
+		display: block;
+		background: #2b2d3f;
+		line-height: 50px;
+		font-size: 16px;
+		padding: 0 15px;
+	}
+
+
 
 	header h1 {
 		padding-top: 35px;
@@ -253,7 +270,7 @@
 		margin-bottom: 30px;
 	}
 	header .tell_number {
-	display: none;
+		display: none;
 	}
 /*--- end ----------------header-------------------*/
 /*--------------conteiner_honors-----------*/
@@ -429,10 +446,7 @@ footer .container {
 		margin: 0 0;
 		line-height: 42px;
 	}
-/*	.container_people_saying .col-xs-10{
-		margin: 0 0;
-		width: 100%;
-	}*/
+
 /*-----------------container_cook_say---------------*/
 	.container_cook_say {
 		

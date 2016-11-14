@@ -132,6 +132,10 @@ header{
 	background-size: cover;
 }
 
+
+
+
+
 .menu_wrap {
 	text-align: right;
 }
@@ -154,16 +158,19 @@ header .row .col-mg-12 {
 	font-size: 14px;
 	font-weight: 300;
 	line-height: 20px;
-
 }
 .nav li a {
 	color: #fff;
 }
-
-.nav li:first-of-type a,
+.nav>li:first-of-type>a,
 .nav li a:hover {
 	color: #ec495e;
 }
+.nav li li {
+    
+}
+
+
 #touch_menu {
 	display: none;
 	position: absolute;
@@ -173,6 +180,16 @@ header .row .col-mg-12 {
 	line-height: 35px;
 	color: #fff;
 }
+#touch_menu:hover {
+	opacity: 0.7;
+}
+
+
+
+
+
+
+
 header h1 {
 	text-align: center;
 	color: #e8be99;
