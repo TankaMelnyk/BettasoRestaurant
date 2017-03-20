@@ -1,13 +1,9 @@
-/*==========  Desktop First Method  ==========*/
-
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-	/*===================TOP INFO =================*/
-	
+/*===================TOP INFO =================*/	
 	.topInfo{
 		height: 75px;
 	}
-
 	.topInfo .row{
 		margin: 0;
 	}
@@ -26,9 +22,9 @@
 	.referenceGroupSotsseti{
 		text-align: center;
 	}
-	/*- end --------------------top_info---------------*/
+/*- end --------------------top_info---------------*/
 
-	/*-----------------------header--------------------*/
+/*-----------------------header--------------------*/
 	header{
 		background-size: 1350px auto;
 		min-height: 700px;
@@ -55,10 +51,9 @@
 	header h1 {
 		padding-top: 90px;
 	}
-	/*-end------------------ header -------------*/
+/*-end------------------ header -------------*/
 
-	/*--------------conteiner_honors-----------*/
-
+/*--------------conteiner_honors-----------*/
 	.conteiner_honors .content{
 		min-height: 300px;
 	}
@@ -76,9 +71,9 @@
 		margin-top: 15px;
 		margin-bottom: 0px;
 	}
+/*-- end ------------conteiner_honors-----------*/
 
-	/*-- end ------------conteiner_honors-----------*/
-	/*----------------conteiner_adt---------------------*/
+/*----------------conteiner_adt---------------------*/
 	.container_adt .adt_info {
 		padding: 0 0 0 80px;
 	}
@@ -88,16 +83,15 @@
 		.container_adt>.container>.row>.col-md-6 {
 		padding: 0 15px;
 	}
-	/*--  end  ----------conteiner_adt-------------------*/
-	/*------------------container_menu------------------*/
+/*--  end  ----------conteiner_adt-------------------*/
 
+/*------------------container_menu------------------*/
 	.container_menu .forums_menu{
 		height: 500px;
 	}
-
 /*--end-------------container_menu------------------*/
-/*----------------container_people_saying-----------*/
 
+/*----------------container_people_saying-----------*/
 	.container_people_saying .people_say {
 		text-align: left;
 		min-height: 220px;
@@ -109,7 +103,6 @@
 		max-width: 900px;
 		margin: 0 auto;
 	}
-
 /*-- end -----------container_gallery---------------*/
 }
 
@@ -119,12 +112,8 @@
 	header .nav {
 	   padding-top: 85px;
 	}
-
 /*--- end ----------------header-------------------*/
-/*--------------conteiner_honors-----------*/
 
-
-/*-- end ------------conteiner honors-----------*/
 /*----------------conteiner_adt---------------------*/
 	.container_adt .adt_info {
 		padding: 0px 0 0 35px;
@@ -142,11 +131,9 @@
 	.container_adt>.container>.row>.col-md-6:last-child {
 		padding: 0 0 0 15px;
 	}
-
-
 /*--  end  ----------conteiner_adt-------------------*/
-/*----------------container_people_saying-----------*/
 
+/*----------------container_people_saying-----------*/
 	.container_people_saying .people_say{
 		min-height: 270px;
 	}
@@ -175,7 +162,6 @@
 	.container_cook_say h4 {
 		padding-top: 80px;
 	}
-
 	.container_cook_say .col-sm-7 {
 		z-index: 2;
 	}
@@ -186,6 +172,7 @@
 		width: 450px;
 	}
 /*----end ----------container_cook_say---------------*/
+
 /*----------------container_gallery---------------*/
 	.container_gallery p {
 		max-width: 660px;
@@ -193,16 +180,15 @@
 /*--- end -------------container_gallery---------------*/
 
 /*--------------------- footer --------------------------*/
-.container_subscribe input{
-	width: 72%;
-
-}
-.container_subscribe button {
-	width: 27%;
-}
-.container_subscribe .container {
-	max-width:720px;
-}
+	.container_subscribe input{
+		width: 72%;
+	}
+	.container_subscribe button {
+		width: 27%;
+	}
+	.container_subscribe .container {
+		max-width:720px;
+	}
 /*-- end --------------- footer --------------------------*/
 
 }
@@ -227,16 +213,15 @@
 	}
 /*-- end ------------ top_info ---------------*/
 /*-------------------header-------------------*/
-	header{
+	header {
 		background-size: 820px auto;
 		min-height: 425px;
 	}
-
 	header .row {
 		margin: 0;
 	}
 	header .nav {
-	    /*display: none;*/
+	    display: none;
 	}
 	#touch_menu{
 		display: inline-block;
@@ -256,9 +241,6 @@
 		font-size: 16px;
 		padding: 0 15px;
 	}
-
-
-
 	header h1 {
 		padding-top: 35px;
 		font-size: 36px;
@@ -273,8 +255,8 @@
 		display: none;
 	}
 /*--- end ----------------header-------------------*/
-/*--------------conteiner_honors-----------*/
 
+/*--------------conteiner_honors-----------*/
 	.conteiner_honors .content{
 		padding: 50px 0 40px 90px;
 		min-height: 180px;
@@ -284,7 +266,6 @@
 		display: inline-block;
 		margin: 0 ;
 	}
-
 	.conteiner_honors .text_content{
 		display: inline-block;
 		width: 50%;
@@ -304,9 +285,8 @@
 		font-width: 300;
 		padding: 0;
 	}
-
-
 /*-- end ------------conteiner_honors-----------*/
+
 /*----------------conteiner_adt---------------------*/
 	.container_adt {
 		padding: 40px 0 10px 0;
@@ -321,16 +301,17 @@
 		padding: 0 15px;
 	}
 /*--  end  ----------conteiner_adt-------------------*/
+
 /*------------------container_menu------------------*/
 	.container_menu .forums_menu{
 		height: 225px;
 	}
-
 	.container_menu .forums_menu:hover .text_hover{
 		display: none;
 		height: 0;
 	}
 /*--end-------------container_menu------------------*/
+
 /*----------------container_people_saying-----------*/
 	.container_people_saying {
 		padding: 50px 0;
@@ -349,15 +330,12 @@
 	.container_people_saying .who_says {
 		padding: 10px;
 	}
-
 /*-- end --------------container_people_saying-----------*/
 
 /*--------------------chef_recommends--------------------*/
-
 	.chef_recommends {
 		padding: 50px 0 0 0;
 	}
-
 	.chef_recommends .info_recom{
 		padding: 10px 15px 35px 15px;
 	}
@@ -365,6 +343,7 @@
 		margin: 15px;
 	}
 /*-- end -------------chef_recommends--------------------*/
+
 /*-----------------container_cook_say---------------*/
 	.container_cook_say {
 		min-height: 440px;
@@ -388,30 +367,27 @@
 	}
 	.container_gallery h3 {
 		margin-bottom: 5px;
-
 	}
 	.container_gallery  .btn_book_online{
 		margin: 40px auto 60px;
 	}
 /*--- end -------------container_gallery---------------*/
 /*--------------------- footer --------------------------*/
-.container_subscribe input{
-	width: 63%;
-
-}
-.container_subscribe button {
-	width: 36%;
-}
-footer .container {
-	max-width: 580px;
-}
+	.container_subscribe input{
+		width: 63%;
+	}
+	.container_subscribe button {
+		width: 36%;
+	}
+	footer .container {
+		max-width: 580px;
+	}
 /*-- end --------------- footer --------------------------*/
 }
 
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px) {
-	/*--------------conteiner_honors-----------*/
-
+/*--------------conteiner_honors-----------*/
 	.conteiner_honors .content{
 		padding: 50px 0 40px 10px;
 	}
@@ -420,8 +396,8 @@ footer .container {
 		padding: 0 0;
 		margin: 0 auto;
 	}
-
 /*-- end ------------conteiner_honors-----------*/
+
 /*----------------conteiner_adt---------------------*/
 	.container_adt {
 		padding: 40px 0 30px 0;
@@ -433,80 +409,42 @@ footer .container {
 /*-- end --------------conteiner_adt---------------------*/
 
 /*------------------container_menu------------------*/
-/*---- end --------------container_menu------------------*/
-	
-	.container_menu h3{
+	.container_menu h3 {
 		font-size: 24px;
 		letter-spacing: 3.5px;
 	}
+/*---- end --------------container_menu------------------*/	
 }
-/*----------------container_people_saying-----------*/
-	
-	.container_people_saying h3{
+/*----------------container_people_saying-----------*/	
+	.container_people_saying h3 {
 		margin: 0 0;
 		line-height: 42px;
 	}
-
 /*-----------------container_cook_say---------------*/
-	.container_cook_say {
-		
-	}
 	.container_cook_say .col-xs-12:first-child {
 		padding-right: 15px;
 		padding-bottom: 0px;
 	}
 	/*--------------------- footer --------------------------*/
-.container_subscribe input{
-	width: 100%;
-	margin-bottom: 5px;
-}
-.container_subscribe button {
-	width: 100%;
-	left: 0;
-}
-footer .down_icons p {
-	text-align: center;
-	margin-bottom: 0;
-	line-height: 25px;
-}
-footer .info_down .addressInfo {
-	font-size: 12px;
-}
-.down_icons .referenceGroupSotsseti {
-    float: none;
-    padding: 0 0 20px 0;
-}
+	.container_subscribe input{
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	.container_subscribe button {
+		width: 100%;
+		left: 0;
+	}
+	footer .down_icons p {
+		text-align: center;
+		margin-bottom: 0;
+		line-height: 25px;
+	}
+	footer .info_down .addressInfo {
+		font-size: 12px;
+	}
+	.down_icons .referenceGroupSotsseti {
+	    float: none;
+	    padding: 0 0 20px 0;
+	}
 /*-- end --------------- footer --------------------------*/
 /*----end ----------container_cook_say---------------*/
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {
-	
-}
-
-
-/*==========  Mobile First Method  ==========*/
-
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {
-
-}
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {
-
-}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {
-
-}
-
-/* Medium Devices, Desktops */
-@media only screen and (min-width : 992px) {
-
-}
-
- /* Large Devices, Wide Screens */
-@media only screen and (min-width : 1200px) {
-
-}
